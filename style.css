@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  #clock {
+    font-size: 3em;
+    margin: 50px 0;
+  }
+  
+  #alarm-form {
+    margin-bottom: 50px;
+  }
+  
+  #alarm-form label {
+    font-size: 1.2em;
+  }
+  
+  #alarm-form input[type="time"] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+  }
+  
+  #set-alarm {
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #set-alarm:hover {
+    background-color: #0069d9;
+  }
+  
+  #alarm-sound {
+    display: none;
+  }
+  

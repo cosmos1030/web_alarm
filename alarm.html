@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>알람 프로그램</title>
+</head>
+<body>
+	<h1>알람 시간을 설정하세요</h1>
+	<input type="time" id="alarmTime">
+	<button onclick="setAlarm()">알람 설정</button>
+	<button onclick="stopAlarm()">알람 끄기</button>
+	<audio id="alarmSound">
+		<source src="alarm.mp3" type="audio/mpeg">
+	</audio>
+	<script src="alarm.js"></script>
+</body>
+</html>
